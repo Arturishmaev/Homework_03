@@ -39,7 +39,7 @@ System.Console.WriteLine("Расстояние между точками : " + d
 //Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
 System.Console.WriteLine("Введите челое число :");
-int number1 = Convert.ToInt32(Console.ReadLine);
+int number1 = Convert.ToInt32(Console.ReadLine());
 int tablecube = 1;
 if (number1 < 1)
 {
